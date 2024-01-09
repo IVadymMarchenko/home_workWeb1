@@ -1,5 +1,5 @@
-from CODE_CRAFTERS_CORE.Record import Record
-from CODE_CRAFTERS_CORE.RecordData import *
+from Record import Record
+from RecordData import *
 from collections import UserList
 from tabulate import tabulate
 from emoji import emojize
