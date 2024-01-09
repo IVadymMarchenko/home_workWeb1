@@ -1,10 +1,10 @@
-
-from CODE_CRAFTERS_CORE.FileSorting import executing_command
+#poetry run python CODE_CRAFTERS_CORE/main.py
+from FileSorting import executing_command
 from prompt_toolkit.application.current import get_app
 from prompt_toolkit.completion import WordCompleter
-from CODE_CRAFTERS_CORE.RecordData import bcolors
-from CODE_CRAFTERS_CORE.AddressBook import *
-from CODE_CRAFTERS_CORE.NoteFeature import *
+from RecordData import bcolors
+from AddressBook import *
+from NoteFeature import *
 from prompt_toolkit import PromptSession
 from prompt_toolkit.styles import Style
 from pathlib import Path

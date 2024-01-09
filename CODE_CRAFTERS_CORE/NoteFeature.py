@@ -1,4 +1,4 @@
-from CODE_CRAFTERS_CORE.RecordData import bcolors
+from RecordData import bcolors
 from collections import UserDict
 from tabulate import tabulate
 from emoji import emojize
